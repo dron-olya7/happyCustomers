@@ -18,11 +18,15 @@ p {
 
 .customers-left {
     background: #2EC5CE;
-    padding-top: 244px;
+    /* padding-top: 244px;
     padding-bottom: 248px;
     padding-left: 136px;
-    padding-right: 124px;
+    padding-right: 124px; */
+    padding: 244px 124px 248px 136px;
     vertical-align: middle;
+    margin-top: -3px;
+    width: 650px;
+    height: 680px;
 }
 
 .customers-right {
@@ -47,7 +51,8 @@ p {
 .customers-right,
 .customers-left {
     display: inline-block;
-    margin-left: -4px;
+    margin-left: -5px;
+    
 }
 
 .customers-right__block {
